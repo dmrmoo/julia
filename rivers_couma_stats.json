@@ -1,0 +1,634 @@
+{
+  "data": {
+    "platformInfo": {
+      "platformSlug": "ign",
+      "platformUserId": null,
+      "platformUserHandle": "Rivers Cuoma",
+      "platformUserIdentifier": "Rivers Cuoma",
+      "avatarUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/items/nameplates/avatars/30000032.jpg?v=1740144797",
+      "additionalParameters": null
+    },
+    "userInfo": {
+      "userId": null,
+      "isPremium": false,
+      "isVerified": false,
+      "isInfluencer": false,
+      "isPartner": false,
+      "countryCode": null,
+      "customAvatarUrl": null,
+      "customHeroUrl": null,
+      "customAvatarFrame": null,
+      "customAvatarFrameInfo": null,
+      "premiumDuration": null,
+      "socialAccounts": [],
+      "badges": null,
+      "pageviews": 1,
+      "xpTier": null,
+      "isSuspicious": null
+    },
+    "metadata": {
+      "lastUpdated": {
+        "value": "2000-01-01T00:00:00+00:00",
+        "displayValue": "2000-01-01T00:00:00.0000000+00:00"
+      },
+      "isPC": true,
+      "clubMiniName": "ERICUH",
+      "isPrivateCareerOverview": false,
+      "isPrivateCareerStatistics": false,
+      "isPrivateBattleHistory": false,
+      "level": 38,
+      "gamemodes": [
+        {
+          "id": "competitive",
+          "name": "Competitive"
+        },
+        {
+          "id": "quick-match",
+          "name": "Quick Match"
+        },
+        {
+          "id": "arcade",
+          "name": "Arcade"
+        },
+        {
+          "id": "18v18-annihilation",
+          "name": "18v18 Annihilation"
+        },
+        {
+          "id": "tournament",
+          "name": "Tournament"
+        },
+        {
+          "id": "event",
+          "name": "Event"
+        }
+      ],
+      "currentSeason": 13,
+      "defaultSeason": 13,
+      "seasons": [
+        {
+          "id": 13,
+          "name": "S6.5: Night at the Museum",
+          "shortName": "S6.5"
+        },
+        {
+          "id": 12,
+          "name": "S6: Night at the Museum",
+          "shortName": "S6"
+        },
+        {
+          "id": 11,
+          "name": "S5.5: Love is a Battlefield",
+          "shortName": "S5.5"
+        },
+        {
+          "id": 10,
+          "name": "S5: Love is a Battlefield",
+          "shortName": "S5"
+        },
+        {
+          "id": 9,
+          "name": "S4.5: Heart of the Dragon",
+          "shortName": "S4.5"
+        },
+        {
+          "id": 8,
+          "name": "S4: Heart of the Dragon",
+          "shortName": "S4"
+        },
+        {
+          "id": 7,
+          "name": "S3.5: The Abyss Awakens",
+          "shortName": "S3.5"
+        },
+        {
+          "id": 6,
+          "name": "S3: The Abyss Awakens",
+          "shortName": "S3"
+        },
+        {
+          "id": 5,
+          "name": "S2.5: Hellfire Gala",
+          "shortName": "S2.5"
+        },
+        {
+          "id": 4,
+          "name": "S2: Hellfire Gala",
+          "shortName": "S2"
+        },
+        {
+          "id": 3,
+          "name": "S1.5: Eternal Night Falls",
+          "shortName": "S1.5"
+        },
+        {
+          "id": 2,
+          "name": "S1: Eternal Night Falls",
+          "shortName": "S1"
+        },
+        {
+          "id": 1,
+          "name": "S0: Dooms' Rise",
+          "shortName": "S0"
+        }
+      ]
+    },
+    "segments": [
+      {
+        "type": "overview",
+        "attributes": {
+          "season": 13,
+          "mode": "all"
+        },
+        "metadata": {
+          "name": "All"
+        },
+        "expiryDate": "0001-01-01T00:00:00+00:00",
+        "stats": {
+          "timePlayed": {
+            "displayName": "Time Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0s",
+            "displayType": "TimeSeconds"
+          },
+          "matchesPlayed": {
+            "displayName": "Matches Played",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "matchesWon": {
+            "displayName": "Wins",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "matchesWinPct": {
+            "displayName": "Win %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0.0%",
+            "displayType": "NumberPercentage"
+          },
+          "kills": {
+            "displayName": "Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "deaths": {
+            "displayName": "Deaths",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "assists": {
+            "displayName": "Assists",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "kdRatio": {
+            "displayName": "K/D Ratio",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0.00",
+            "displayType": "NumberPrecision2"
+          },
+          "kdaRatio": {
+            "displayName": "KDA Ratio",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0.00",
+            "displayType": "NumberPrecision2"
+          },
+          "totalHeroDamage": {
+            "displayName": "Damage",
+            "displayCategory": "Damage",
+            "category": "damage",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalHeroDamagePerMinute": {
+            "displayName": "Damage/Min",
+            "displayCategory": "Damage",
+            "category": "damage",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalHeroHeal": {
+            "displayName": "Healing",
+            "displayCategory": "Healing",
+            "category": "healing",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalHeroHealPerMinute": {
+            "displayName": "Healing/Min",
+            "displayCategory": "Healing",
+            "category": "healing",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalDamageTaken": {
+            "displayName": "Damage Blocked",
+            "displayCategory": "Damage",
+            "category": "damage",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalDamageTakenPerMinute": {
+            "displayName": "Damage Blocked/Min",
+            "displayCategory": "Healing",
+            "category": "healing",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "lastKills": {
+            "displayName": "Last Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "headKills": {
+            "displayName": "Head Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "soloKills": {
+            "displayName": "Solo Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "maxSurvivalKills": {
+            "displayName": "Max Survival Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "maxContinueKills": {
+            "displayName": "Max Continue Kills",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "continueKills3": {
+            "displayName": "Continue Kills 3",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "continueKills4": {
+            "displayName": "Continue Kills 4",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "continueKills5": {
+            "displayName": "Continue Kills 5",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "continueKills6": {
+            "displayName": "Continue Kills 6",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "mainAttacks": {
+            "displayName": "Main Attacks",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "mainAttackHits": {
+            "displayName": "Main Attack Hits",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "shieldHits": {
+            "displayName": "Shield Hits",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "summonerHits": {
+            "displayName": "Summoner Hits",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "chaosHits": {
+            "displayName": "Chaos Hits",
+            "displayCategory": "Combat",
+            "category": "combat",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalMvp": {
+            "displayName": "MVPs",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalMvpPct": {
+            "displayName": "MVP %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0.00",
+            "displayType": "NumberPrecision2"
+          },
+          "totalSvp": {
+            "displayName": "SVPs",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0",
+            "displayType": "Number"
+          },
+          "totalSvpPct": {
+            "displayName": "SVP %",
+            "displayCategory": "Game",
+            "category": "game",
+            "metadata": {
+
+            },
+            "value": 0,
+            "displayValue": "0.00",
+            "displayType": "NumberPrecision2"
+          },
+          "ranked": {
+            "displayName": "Rank Score",
+            "category": "skillrating",
+            "metadata": {
+              "unit": "RS",
+              "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/unranked.png",
+              "tierName": "Unranked",
+              "tierShortName": "Unranked",
+              "color": "#888888"
+            },
+            "value": null,
+            "displayValue": "-",
+            "displayType": "String"
+          }
+        }
+      },
+      {
+        "type": "ranked-peaks",
+        "attributes": {
+
+        },
+        "metadata": {
+
+        },
+        "expiryDate": "0001-01-01T00:00:00+00:00",
+        "stats": {
+          "peakTiers": {
+            "displayName": "Season Peaks",
+            "metadata": {
+
+            },
+            "value": [
+              {
+                "displayName": "Peak Rating",
+                "metadata": {
+                  "unit": "RS",
+                  "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/3.png?v=1734906803",
+                  "tierName": "Gold III",
+                  "tierShortName": "G3",
+                  "color": "#FFDA57",
+                  "season": 12,
+                  "seasonName": "S6: Night at the Museum",
+                  "seasonShortName": "S6"
+                },
+                "value": 3691.42895864123,
+                "displayValue": null,
+                "displayType": "Custom"
+              },
+              {
+                "displayName": "Peak Rating",
+                "metadata": {
+                  "unit": "RS",
+                  "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/2.png?v=1734906803",
+                  "tierName": "Silver I",
+                  "tierShortName": "S1",
+                  "color": "#7B9196",
+                  "season": 3,
+                  "seasonName": "S1.5: Eternal Night Falls",
+                  "seasonShortName": "S1.5"
+                },
+                "value": 3575.23386108287,
+                "displayValue": null,
+                "displayType": "Custom"
+              },
+              {
+                "displayName": "Peak Rating",
+                "metadata": {
+                  "unit": "RS",
+                  "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/3.png?v=1734906803",
+                  "tierName": "Gold III",
+                  "tierShortName": "G3",
+                  "color": "#FFDA57",
+                  "season": 2,
+                  "seasonName": "S1: Eternal Night Falls",
+                  "seasonShortName": "S1"
+                },
+                "value": 3638.27906148183,
+                "displayValue": null,
+                "displayType": "Custom"
+              },
+              {
+                "displayName": "Peak Rating",
+                "metadata": {
+                  "unit": "RS",
+                  "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/3.png?v=1734906803",
+                  "tierName": "Gold III",
+                  "tierShortName": "G3",
+                  "color": "#FFDA57",
+                  "season": 1,
+                  "seasonName": "S0: Dooms' Rise",
+                  "seasonShortName": "S0"
+                },
+                "value": 3607.07928331277,
+                "displayValue": null,
+                "displayType": "Custom"
+              }
+            ],
+            "displayValue": null,
+            "displayType": "Custom"
+          },
+          "lifetimePeakRanked": {
+            "displayName": "Lifetime Peak Rank Score",
+            "category": "skillrating",
+            "metadata": {
+              "unit": "RS",
+              "iconUrl": "https://trackercdn.com/cdn/tracker.gg/marvel-rivals/images/ranks/3.png?v=1734906803",
+              "tierName": "Gold III",
+              "tierShortName": "G3",
+              "color": "#FFDA57",
+              "season": 12,
+              "seasonName": "S6: Night at the Museum",
+              "seasonShortName": "S6"
+            },
+            "value": 3691,
+            "displayValue": "3,691",
+            "displayType": "String"
+          }
+        }
+      }
+    ],
+    "availableSegments": [],
+    "expiryDate": "2026-02-13T23:29:35.9757991+00:00"
+  }
+}
