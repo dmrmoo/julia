@@ -1,9 +1,13 @@
 local fname = "data"
-local dp = 200
+local dr = 200
+local dc = 2
+
+
+
 local function createf()
     local file = io.open(fname..".csv", "w")
-    for i = 1,dp do
-        for k = 1,2 do
+    for i = 0,dr do
+        for k = 1,dc do
             local rand = math.random()
             file:write(string.format("%f, ",rand*1000))
         end
