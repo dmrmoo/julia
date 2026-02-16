@@ -1,9 +1,10 @@
-local file = io.open("data.csv", "w")
 
-
-local coefficients = arg  
+local fname = table.remove(arg, 1)  -- filename to write to
+local coefficients = arg
 local numCoeffs = #coefficients
 local maxX = 100  -- generate data from x=0 to maxX
+
+local file = io.open(fname, "w")
 
 for x = 0, maxX do
     local result = 0
@@ -13,3 +14,6 @@ for x = 0, maxX do
     end
     file:write(string.format("%d, %f\n", x, result))
 end
+
+file:close()
+

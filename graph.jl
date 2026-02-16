@@ -4,7 +4,12 @@ using UnicodePlots
 
 
 # filename to read from
-global fname = ARGS[1]
+fname = ARGS[1]
+coeffs = ARGS[2:end]
+
+
+cmd = Cmd(["lua", "equation.lua", fname, coeffs...])
+run(cmd)
 
 
 # read the csv file into a DataFrame
