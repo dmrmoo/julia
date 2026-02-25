@@ -213,7 +213,8 @@ function test()
     end
 
     println(maxIt)
-    println(s)
+    println("s: $s, n: $n, h: $h, b: $b")
+
 end
 
 
