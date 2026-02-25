@@ -2,7 +2,7 @@
 
 julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "9766f2dfa73674497e2610e30b3cbc63c2205f0f"
+project_hash = "02d6025acc873d408b853b045af087d9a1bf743c"
 
 [[deps.AliasTables]]
 deps = ["PtrArrays", "Random"]
@@ -28,6 +28,12 @@ deps = ["CodecZlib", "Dates", "FilePathsBase", "InlineStrings", "Mmap", "Parsers
 git-tree-sha1 = "deddd8725e5e1cc49ee205a1964256043720a6c3"
 uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 version = "0.10.15"
+
+[[deps.ChangePrecision]]
+deps = ["LinearAlgebra", "Random", "Statistics"]
+git-tree-sha1 = "2ac5097b3caf70b772901abd824e09f991e47296"
+uuid = "3cb15238-376d-56a3-8042-d33272777c9a"
+version = "1.1.1"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
