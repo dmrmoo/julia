@@ -1,5 +1,5 @@
 
-local fname = table.remove(arg, 1)  -- filename to write to
+local fname = table.remove(arg, 1) -- removes the first argument (filename) from the list of arguments
 local coefficients = arg
 local numCoeffs = #coefficients
 local maxX = 100  -- generate data from x=0 to maxX
