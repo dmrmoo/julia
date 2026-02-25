@@ -1,6 +1,7 @@
 using UnicodePlots
 using ChangePrecision
 
+@changeprecision Float32 begin
 
 global b = false
 global s = false
@@ -71,7 +72,7 @@ end
 
 
 
-function solve(x::Float32) :: Float32
+function solve(x::Float32)
     result::Float32 = 0.0
     for i in eachindex(coeffs)
         result += coeffs[i] * x^(length(coeffs) - i)
@@ -79,7 +80,7 @@ function solve(x::Float32) :: Float32
     return result
 end
 
-function solveDeriv(x::Float32) :: Float32
+function solveDeriv(x::Float32)
     result::Float32 = 0.0
     for i in 1:(length(coeffs)-1)
         power = length(coeffs) - i
@@ -89,12 +90,11 @@ function solveDeriv(x::Float32) :: Float32
 end
 
 
-function bisection(a::Float32, b::Float32) :: Float32
+function bisection(a::Float32, b::Float32)
     return bisection(a, b, maxIt)
 end
 
-function bisection(a::Float32, b::Float32, maxIt::Float32) :: Float32
-@changeprecision Float32 begin
+function bisection(a::Float32, b::Float32, maxIt::Float32)
     fa = solve(a)
     fb = solve(b)
 
@@ -127,11 +127,9 @@ function bisection(a::Float32, b::Float32, maxIt::Float32) :: Float32
     println("Bisection method reached maximum iterations without convergence.")
     return c
 end
-end
 
 # for x use initial p and not initial p2
-function newton(x::Float32) :: Float32
-@changeprecision Float32 begin
+function newton(x::Float32)
     fx = solve(x)
     for i in 1:maxIt
         fd = solveDeriv(x)
@@ -155,10 +153,8 @@ function newton(x::Float32) :: Float32
     println("Maximum iterations reached without convergence.")
     return x
 end
-end
 
-function secant(a::Float32, b::Float32) :: Float32
-@changeprecision Float32 begin
+function secant(a::Float32, b::Float32)
     fa = solve(a)
     fb = solve(b)
 
@@ -191,14 +187,11 @@ function secant(a::Float32, b::Float32) :: Float32
     println("Maximum iterations reached without convergence.")
     return a
 end
-end
 
-function hybrid(a ::Float32, b::Float32) :: Float32
-@changeprecision Float32 begin
+function hybrid(a ::Float32, b::Float32)
     # run bisection 5 times then switch to newton
     c = newton(bisection(a, b, 5::Float32))
     return c
-end
 end
 
 
@@ -237,4 +230,6 @@ end
 println("Using method: ", s ? "Secant" : n ? "Newton" : h ? "Hybrid" : "Bisection")
 println("Approximate root: $ans")
 writefile()
+
+end
 
