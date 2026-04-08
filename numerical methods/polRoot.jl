@@ -12,6 +12,7 @@ global delta :: Float32 = 0.00001
 global maxIt :: Float32 = 10000
 global mI = false
 global initP::Float32 = 0.0
+global initPCheck = false
 global initP2::Float32 = 1.0
 global fname = ""
 global coeffs = []
@@ -42,9 +43,10 @@ for x in ARGS
     elseif !startswith(x, "-")
         try
             if isinteger(parse(Float32, x))
-                if initP == 0.0
+                if initP == 0.0 && initPCheck == false
                     global initP = parse(Float32, x)
                     initP2 = initP + 1.0
+                    initPCheck = true
                 else
                     global initP2 = parse(Float32, x)
                 end
@@ -212,7 +214,7 @@ end
 
 
 readFile()
-test()
+# test()
 
 
 
